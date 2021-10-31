@@ -6,7 +6,7 @@ This was made for **UIDAI HACKATHON** by team **NAV MYKRO INFINITY**
 
 ## WORKING PROTOTYPE
 
-<p align="center">
+<p>
 Youtube Link-https://youtu.be/19u2WVPQCw0
 </p>
 
