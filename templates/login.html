@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>UIDAI - Aadhaar</title>
+    <!--Link to CSS -->
+    <link href="../static/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/style.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+    <form class="form-signin" action="/otp" method="POST">
+        <h1 class="h2 mb-3 font-weight-normal">UIDAI - Aadhaar</h1><br><br>
+        <label for="usr">Enter Aadhaar Number</label>
+        <input type="number" id="number" name="number" class="form-control" placeholder="Aadhaar Number" required><br>
+        <label for="usr">Enter Recaptcha</label> <br>
+        <img src="static\recaptcha.jpg" alt="recaptcha"> <br>
+        <input type="text" id="recaptcha" name="recaptcha" class="form-control" placeholder="Enter Recaptcha" required><br>
+        <button class=" btn btn-lg btn-primary btn-block " value="submit ">Generate OTP</button>
+    </form>
+</body>
+
+</html>

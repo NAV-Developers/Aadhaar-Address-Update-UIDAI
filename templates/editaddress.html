@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>UIDAI - Aadhaar</title>
+    <!--Link to CSS -->
+    <link href="../static/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/style.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+    <form class="form-signin" action="/updated" method="POST">
+        <h1 class="h2 mb-3 font-weight-normal">UIDAI - Aadhaar</h1><br>
+        <h4 class="h2 mb-3 font-weight-normal">Modify Address</h4><br>
+        <input type="text" id="house" name="house" class="form-control" placeholder="House Number" required autofocus><br>
+        <!-- <label for=" usr ">{{house}}</label><br> -->
+        <label for="usr ">{{street}}</label><br>
+        <label for="usr ">{{vtc}}</label><br>
+        <label for="usr ">{{landmark}}</label><br>
+        <label for="usr ">{{po}}</label><br>
+        <label for="usr ">{{subdist}}</label><br>
+        <label for="usr ">{{dist}}</label><br>
+        <label for="usr ">{{pc}}</label><br>
+        <label for="usr ">{{state}}</label><br>
+        <label for="usr ">{{country}}</label><br>
+        <button class="btn btn-lg btn-primary btn-block " value="submit ">Update Changes</button>
+    </form>
+</body>
+
+</html>

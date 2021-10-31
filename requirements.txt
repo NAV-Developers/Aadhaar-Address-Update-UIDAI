@@ -1,0 +1,4 @@
+Flask
+Pillow
+Flask-SocketIO
+mysql-connector-python
